@@ -1,0 +1,31 @@
+{
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "new_db",
+            "name": "Local first MySQL80",
+            "username": "root",
+            "password": "54321"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "MySQL",
+            "name": "PostgreSQL 14",
+            "username": "postgres",
+            "database": "postgres",
+            "password": "54321"
+        }
+    ]
+}
